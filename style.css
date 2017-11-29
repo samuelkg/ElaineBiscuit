@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #bbc0e0;
+}
+
+.cabecalho,
+.rodape {
+    width: 100%;
+    background-color: blue;
+}
+
+.cabecalho {
+    height: 150px;
+    background-color: #afb9d3;
+    text-align: center;
+    position: relative;
+}
+.logo {
+    text-align: left;
+    position: absolute; 
+    margin: 50px;
+    margin-left: 100px;
+}
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background: #a1aecf;
+    list-style: none;
+    text-align: right;
+    position: absolute;
+}
+#menu ul li { display: inline;}
+
+/* Corpo principal */
+.main {
+    height: calc(100% - 200px);
+    background-color: #d1d1d1;
+    text-align: center;
+}
+    .box_left {
+        height: 90%;
+        background-color: #afb9d3;
+        width: 25%;
+        float: left;
+        margin-left: 4%;
+        overflow: auto;
+    }
+    .box_center {
+        height: 90%;
+        background:#afb9d3;
+        width: 25%;
+        float: left;
+        margin-left: 9%;
+        margin-right: 8%;
+        overflow: auto;
+    }
+    .box_right {
+        height: 90%;
+        background: #afb9d3;
+        width: 25%;
+        float: right;
+        margin-right: 4%;
+        overflow: auto;
+    }
+
+
+.rodape {
+    height: 50px;
+    background-color: #afb9d3;
+    text-align: left;
+}
+
