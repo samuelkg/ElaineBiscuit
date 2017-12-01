@@ -5,7 +5,7 @@
 
 html,
 body {
-    width: 100%;
+    width: calc(100% - 1px);
     height: 100%;
     background-color: #bbc0e0;
 }
@@ -14,67 +14,97 @@ body {
 .rodape {
     width: 100%;
     background-color: blue;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
+    
 }
 
 .cabecalho {
-    height: 150px;
+    height: 100px;
     background-color: #afb9d3;
     text-align: center;
     position: relative;
 }
 .logo {
-    text-align: left;
-    position: absolute; 
-    margin: 50px;
-    margin-left: 100px;
+    text-align: left; 
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    margin: 0;
+    padding: 0;
 }
 
 #menu ul {
-    padding: 0px;
-    margin: 0px;
-    background: #a1aecf;
+    margin: 0;
+    padding: 0;
+    background: #d1d1d1;
     list-style: none;
-    text-align: right;
     position: absolute;
+    right: 55px;
+    top: 40px;
+    font-size: 35px;
 }
 #menu ul li { display: inline;}
 
+#menu ul li a {
+    padding: 3px 15px;
+    display: inline-block;
+    
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #d1d1d1;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid rgb(55, 0, 255);
+}
+
 /* Corpo principal */
 .main {
-    height: calc(100% - 200px);
+    height: calc(100% - 174px);
     background-color: #d1d1d1;
     text-align: center;
+    
 }
     .box_left {
         height: 90%;
         background-color: #afb9d3;
         width: 25%;
         float: left;
-        margin-left: 4%;
+        margin-left: 3%;
         overflow: auto;
+        border: 1px solid #f7f7f7;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
     }
     .box_center {
         height: 90%;
         background:#afb9d3;
         width: 25%;
         float: left;
-        margin-left: 9%;
+        margin-left: 10%;
         margin-right: 8%;
         overflow: auto;
+        border: 1px solid #f7f7f7;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
     }
     .box_right {
         height: 90%;
         background: #afb9d3;
         width: 25%;
         float: right;
-        margin-right: 4%;
+        margin-right: 3%;
         overflow: auto;
+        border: 1px solid #f7f7f7;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
     }
 
 
 .rodape {
-    height: 50px;
+    height: 70px;
     background-color: #afb9d3;
     text-align: left;
+    
 }
 
